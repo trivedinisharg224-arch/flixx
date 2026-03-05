@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nishflix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <h1>NISHFLIX ❤️</h1>
+  </nav>
+
+  <section>
+    <h2>Trending Now</h2>
+    <div class="row">
+      <img src="images/pic1.jpg" onclick="openModal('video1.mp4')">
+      <img src="images/pic2.jpg" onclick="openModal('video2.mp4')">
+    </div>
+  </section>
+
+  <div id="modal" class="modal">
+    <video id="modalVideo" controls></video>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
